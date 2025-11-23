@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Contact</title>
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">Ayo Oluwa</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/Home/home.html">Home</a></li>
+                <li><a href="/AboutMe/aboutMe.html">About Me</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <h3>Confirm Submission</h3>
+            <p>Are you sure you want to submit this form?</p>
+            <div class="modal-actions">
+                <button id="confirm-submit-btn" class="confirm-btn">Confirm</button>
+                <button id="cancel-submit-btn" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 OLATUNJI JOSEPH. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="../global.js"></script>
+</body>
+</html>
