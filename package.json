@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./dist/tailwind.output.css",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./dist/tailwind.output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOe-jo18/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JOe-jo18/Portfolio/issues"
+  },
+  "homepage": "https://github.com/JOe-jo18/Portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
